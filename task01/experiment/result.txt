@@ -1,0 +1,149 @@
+ProGuard, version 6.0.2
+Reading program jar [/Users/sergeytoropov/Desktop/OTUSJavaDeveloper2018-04/github/otus-java-2018-04-toropov/task01/experiment/task01.jar]
+Reading library jmod [/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/jmods/java.base.jmod] (filtered)
+Reading library jmod [/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/jmods/java.se.jmod] (filtered)
+Note: com.google.common.util.concurrent.MoreExecutors: can't find dynamically referenced class com.google.appengine.api.ThreadManager
+Note: com.google.common.util.concurrent.MoreExecutors: can't find dynamically referenced class com.google.apphosting.api.ApiProxy
+Note: com.google.common.base.FinalizableReferenceQueue accesses a method 'startFinalizer(java.lang.Class,java.lang.ref.ReferenceQueue,java.lang.ref.PhantomReference)' dynamically
+      Maybe this is program method 'com.google.common.base.internal.Finalizer { void startFinalizer(java.lang.Class,java.lang.ref.ReferenceQueue,java.lang.ref.PhantomReference); }'
+Note: com.google.common.base.Throwables accesses a method 'getJavaLangAccess()' dynamically
+      Maybe this is library method 'jdk.internal.misc.SharedSecrets { jdk.internal.misc.JavaLangAccess getJavaLangAccess(); }'
+Note: com.google.common.base.internal.Finalizer accesses a method 'finalizeReferent()' dynamically
+      Maybe this is program method 'com.google.common.base.FinalizableReference { void finalizeReferent(); }'
+Note: com.google.common.base.internal.Finalizer accesses a constructor '<init>(java.lang.ThreadGroup,java.lang.Runnable,java.lang.String,long,boolean)' dynamically
+      Maybe this is library method 'java.lang.Thread { Thread(java.lang.ThreadGroup,java.lang.Runnable,java.lang.String,long,boolean); }'
+Note: com.google.common.cache.Striped64 accesses a declared field 'base' dynamically
+      Maybe this is program field 'com.google.common.cache.Striped64 { long base; }'
+      Maybe this is program field 'com.google.common.hash.Striped64 { long base; }'
+      Maybe this is library field 'jdk.internal.reflect.UnsafeStaticFieldAccessorImpl { java.lang.Object base; }'
+Note: com.google.common.cache.Striped64 accesses a declared field 'busy' dynamically
+      Maybe this is program field 'com.google.common.cache.Striped64 { int busy; }'
+      Maybe this is program field 'com.google.common.hash.Striped64 { int busy; }'
+Note: com.google.common.cache.Striped64$Cell accesses a declared field 'value' dynamically
+      Maybe this is program field 'com.google.common.base.Functions$ConstantFunction { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.base.MoreObjects$ToStringHelper$ValueHolder { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.base.Suppliers$ExpiringMemoizingSupplier { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.base.Suppliers$MemoizingSupplier { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.base.Suppliers$NonSerializableMemoizingSupplier { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.cache.LocalCache$WriteThroughEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.cache.Striped64$Cell { long value; }'
+      Maybe this is program field 'com.google.common.collect.Count { int value; }'
+      Maybe this is program field 'com.google.common.collect.ImmutableEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.ImmutableTable$MutableCell { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.LinkedListMultimap$Node { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.MapMakerInternalMap$StrongKeyStrongValueEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.MapMakerInternalMap$WeakKeyStrongValueEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.MapMakerInternalMap$WriteThroughEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.Ordering$IncomparableValueException { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.Streams$1OptionalState { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.Tables$ImmutableCell { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.TreeMultiset$Reference { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.TreeRangeMap$RangeMapEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.graph.MapRetrievalCache$CacheEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.hash.Striped64$Cell { long value; }'
+      Maybe this is program field 'com.google.common.primitives.UnsignedInteger { int value; }'
+      Maybe this is program field 'com.google.common.primitives.UnsignedLong { long value; }'
+      Maybe this is program field 'com.google.common.util.concurrent.AbstractFuture { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.util.concurrent.AtomicDouble { long value; }'
+      Maybe this is program field 'com.google.common.util.concurrent.ImmediateFuture$ImmediateSuccessfulCheckedFuture { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.util.concurrent.ImmediateFuture$ImmediateSuccessfulFuture { java.lang.Object value; }'
+      Maybe this is library field 'java.text.EntryPair { int value; }'
+      Maybe this is library field 'java.time.format.DateTimeFormatterBuilder$PrefixTree { java.lang.String value; }'
+      Maybe this is library field 'jdk.internal.org.objectweb.asm.tree.FieldNode { java.lang.Object value; }'
+      Maybe this is library field 'jdk.internal.util.xml.impl.Pair { java.lang.String value; }'
+      Maybe this is library field 'sun.text.normalizer.OutputInt { int value; }'
+      Maybe this is library field 'sun.text.normalizer.Trie2$Range { int value; }'
+Note: com.google.common.hash.Striped64 accesses a declared field 'base' dynamically
+      Maybe this is program field 'com.google.common.cache.Striped64 { long base; }'
+      Maybe this is program field 'com.google.common.hash.Striped64 { long base; }'
+      Maybe this is library field 'jdk.internal.reflect.UnsafeStaticFieldAccessorImpl { java.lang.Object base; }'
+Note: com.google.common.hash.Striped64 accesses a declared field 'busy' dynamically
+      Maybe this is program field 'com.google.common.cache.Striped64 { int busy; }'
+      Maybe this is program field 'com.google.common.hash.Striped64 { int busy; }'
+Note: com.google.common.hash.Striped64$Cell accesses a declared field 'value' dynamically
+      Maybe this is program field 'com.google.common.base.Functions$ConstantFunction { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.base.MoreObjects$ToStringHelper$ValueHolder { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.base.Suppliers$ExpiringMemoizingSupplier { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.base.Suppliers$MemoizingSupplier { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.base.Suppliers$NonSerializableMemoizingSupplier { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.cache.LocalCache$WriteThroughEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.cache.Striped64$Cell { long value; }'
+      Maybe this is program field 'com.google.common.collect.Count { int value; }'
+      Maybe this is program field 'com.google.common.collect.ImmutableEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.ImmutableTable$MutableCell { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.LinkedListMultimap$Node { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.MapMakerInternalMap$StrongKeyStrongValueEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.MapMakerInternalMap$WeakKeyStrongValueEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.MapMakerInternalMap$WriteThroughEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.Ordering$IncomparableValueException { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.Streams$1OptionalState { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.Tables$ImmutableCell { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.TreeMultiset$Reference { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.TreeRangeMap$RangeMapEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.graph.MapRetrievalCache$CacheEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.hash.Striped64$Cell { long value; }'
+      Maybe this is program field 'com.google.common.primitives.UnsignedInteger { int value; }'
+      Maybe this is program field 'com.google.common.primitives.UnsignedLong { long value; }'
+      Maybe this is program field 'com.google.common.util.concurrent.AbstractFuture { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.util.concurrent.AtomicDouble { long value; }'
+      Maybe this is program field 'com.google.common.util.concurrent.ImmediateFuture$ImmediateSuccessfulCheckedFuture { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.util.concurrent.ImmediateFuture$ImmediateSuccessfulFuture { java.lang.Object value; }'
+      Maybe this is library field 'java.text.EntryPair { int value; }'
+      Maybe this is library field 'java.time.format.DateTimeFormatterBuilder$PrefixTree { java.lang.String value; }'
+      Maybe this is library field 'jdk.internal.org.objectweb.asm.tree.FieldNode { java.lang.Object value; }'
+      Maybe this is library field 'jdk.internal.util.xml.impl.Pair { java.lang.String value; }'
+      Maybe this is library field 'sun.text.normalizer.OutputInt { int value; }'
+      Maybe this is library field 'sun.text.normalizer.Trie2$Range { int value; }'
+Note: com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper accesses a declared field 'waiters' dynamically
+      Maybe this is program field 'com.google.common.util.concurrent.AbstractFuture { com.google.common.util.concurrent.AbstractFuture$Waiter waiters; }'
+Note: com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper accesses a declared field 'listeners' dynamically
+      Maybe this is program field 'com.google.common.util.concurrent.AbstractFuture { com.google.common.util.concurrent.AbstractFuture$Listener listeners; }'
+      Maybe this is program field 'com.google.common.util.concurrent.AbstractService { com.google.common.util.concurrent.ListenerCallQueue listeners; }'
+      Maybe this is program field 'com.google.common.util.concurrent.ListenerCallQueue { java.util.List listeners; }'
+      Maybe this is program field 'com.google.common.util.concurrent.ServiceManager$ServiceManagerState { com.google.common.util.concurrent.ListenerCallQueue listeners; }'
+Note: com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper accesses a declared field 'value' dynamically
+      Maybe this is program field 'com.google.common.base.Functions$ConstantFunction { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.base.MoreObjects$ToStringHelper$ValueHolder { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.base.Suppliers$ExpiringMemoizingSupplier { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.base.Suppliers$MemoizingSupplier { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.base.Suppliers$NonSerializableMemoizingSupplier { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.cache.LocalCache$WriteThroughEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.cache.Striped64$Cell { long value; }'
+      Maybe this is program field 'com.google.common.collect.Count { int value; }'
+      Maybe this is program field 'com.google.common.collect.ImmutableEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.ImmutableTable$MutableCell { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.LinkedListMultimap$Node { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.MapMakerInternalMap$StrongKeyStrongValueEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.MapMakerInternalMap$WeakKeyStrongValueEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.MapMakerInternalMap$WriteThroughEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.Ordering$IncomparableValueException { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.Streams$1OptionalState { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.Tables$ImmutableCell { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.TreeMultiset$Reference { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.TreeRangeMap$RangeMapEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.graph.MapRetrievalCache$CacheEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.hash.Striped64$Cell { long value; }'
+      Maybe this is program field 'com.google.common.primitives.UnsignedInteger { int value; }'
+      Maybe this is program field 'com.google.common.primitives.UnsignedLong { long value; }'
+      Maybe this is program field 'com.google.common.util.concurrent.AbstractFuture { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.util.concurrent.AtomicDouble { long value; }'
+      Maybe this is program field 'com.google.common.util.concurrent.ImmediateFuture$ImmediateSuccessfulCheckedFuture { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.util.concurrent.ImmediateFuture$ImmediateSuccessfulFuture { java.lang.Object value; }'
+      Maybe this is library field 'java.text.EntryPair { int value; }'
+      Maybe this is library field 'java.time.format.DateTimeFormatterBuilder$PrefixTree { java.lang.String value; }'
+      Maybe this is library field 'jdk.internal.org.objectweb.asm.tree.FieldNode { java.lang.Object value; }'
+      Maybe this is library field 'jdk.internal.util.xml.impl.Pair { java.lang.String value; }'
+      Maybe this is library field 'sun.text.normalizer.OutputInt { int value; }'
+      Maybe this is library field 'sun.text.normalizer.Trie2$Range { int value; }'
+Note: com.google.common.util.concurrent.MoreExecutors accesses a method 'currentRequestThreadFactory()' dynamically
+Note: com.google.common.util.concurrent.MoreExecutors accesses a method 'getCurrentEnvironment()' dynamically
+Note: there were 2 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Note: there were 15 accesses to class members by means of introspection.
+      You should consider explicitly keeping the mentioned class members
+      (using '-keep' or '-keepclassmembers').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclassmember)
+Note: you're ignoring all warnings!
+Preparing output jar [/Users/sergeytoropov/Desktop/OTUSJavaDeveloper2018-04/github/otus-java-2018-04-toropov/task01/experiment/task01-thin.jar]
+  Copying resources from program jar [/Users/sergeytoropov/Desktop/OTUSJavaDeveloper2018-04/github/otus-java-2018-04-toropov/task01/experiment/task01.jar]
